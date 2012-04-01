@@ -1,0 +1,23 @@
+<!DOCTYPE>
+<html>
+    <head>
+        <title>Control a LED omg !!</title>
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+        <link rel="stylesheet" type="text/css" href="css/style.css" />
+    </head>
+    
+    <body>
+        
+        <%-partial('topbar')%>
+        <%-partial('sidebar')%>
+        <section id="content">
+            <%-body%>
+        </section>
+        <!-- It's JS time, bitch -->
+        <script src="http://192.168.7.2:8082/socket.io/socket.io.js"></script>
+        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+        <script type="text/javascript" src="js/underscore.js"></script>
+        <script type="text/javascript" src="js/backbone.js"></script>
+        <script type="text/javascript" src="js/main.js"></script>
+    </body>
+</html>
